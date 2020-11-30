@@ -20,12 +20,15 @@ body {
     0% {
         transform:scale (0.1);
         box-shadow: 0 0 0 0 rgba(247, 202, 215, 0.034);
+        opacity: 0.7;
     }
     70% {
         transform: scale(2);
         box-shadow: 0 0 0 20px rgba(236, 184, 199, 0.342) ;
+        opacity: 0.4;
     }
     100% {
         transform: scale(0.1);
+        
     }
 }
